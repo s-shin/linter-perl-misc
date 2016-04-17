@@ -1,0 +1,28 @@
+{
+  "name": "linter-perl-misc",
+  "main": "./lib/linter-perl-misc",
+  "version": "0.0.0",
+  "description": "Lint miscellaneous things of perl",
+  "keywords": [],
+  "activationCommands": {
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "package-deps": ["linter"],
+  "repository": "https://github.com/s-shin/linter-perl-misc",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0"
+  }
+}
