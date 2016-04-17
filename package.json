@@ -1,11 +1,10 @@
 {
   "name": "linter-perl-misc",
   "main": "./lib/linter-perl-misc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lint miscellaneous things of perl",
   "keywords": [],
-  "activationCommands": {
-  },
+  "activationCommands": {},
   "providedServices": {
     "linter": {
       "versions": {
@@ -13,7 +12,9 @@
       }
     }
   },
-  "package-deps": ["linter"],
+  "package-deps": [
+    "linter"
+  ],
   "repository": "https://github.com/s-shin/linter-perl-misc",
   "license": "MIT",
   "engines": {
