@@ -1,7 +1,7 @@
 {
   "name": "linter-perl-misc",
   "main": "./lib/linter-perl-misc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lint miscellaneous things of perl",
   "keywords": [],
   "activationCommands": {},
